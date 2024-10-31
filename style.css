@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #00008B; /* Dark blue background */
+    color: #66ccff; 
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #ffcc00; /* Light gold header */
+}
+
+.title-band {
+    background-color: #66ccff; /* Light blue band */
+    text-align: center;
+    padding: 20px 0;
+    color: #FFD700; /* Light gold text for visibility */
+}
+
+nav {
+    background-color: #66ccff; /* Light blue navigation */
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #FFD700; /* Light gold links for visibility */
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #ffcc00; /* Gold underline for section headers */
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Opțional, pentru a alinia imaginile */
+    margin: 20px 0;
+}
+
+.gallery img {
+    width: 300px; /* Lățimea uniformă pentru toate imaginile */
+    height: auto; /* Înălțimea va fi ajustată proporțional */
+    margin: 10px; /* Spațiu între imagini */
+    border: 2px solid lightblue; /* Optional: bordură pentru imagini */
+    border-radius: 8px; /* Optional: colțuri rotunjite */
+}
+
+
+footer {
+    background-color: #3399ff; /* Light blue footer */
+    color: gold;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
